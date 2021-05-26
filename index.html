@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='./static/css/style.css'>
+
+    <title>Meditation Time</title>
+</head>
+<body>
+    <video id='bg-video'>
+        <source src='/static/video/waves.mp4' type='video/mp4'>
+    </video>
+    <audio id='audio'>
+        <source src='./static/audio/waves.mp3' type="audio/mp3">
+    </audio>
+    <section id='time-selection'>
+        <a class='btn time-btn'>5:00</a>
+        <a class='btn time-btn'>10:00</a>
+        <a class='btn time-btn'>15:00</a>
+        <a class='custom-timer'>Choose a different time length</a>
+    </section>
+
+    <section id='timer-display'>
+        <div class='timer'>
+            <img class='media-btn play' src='./static/img/play-button-svgrepo-com.svg' alt='play icon'>
+            <img class='media-btn pause' src='./static/img/pause-svgrepo-com.svg' alt='pause icon'>
+        </div>
+        <div class='btn-container'>
+            <a class='btn video-btn'>Reset Timer</a>
+            <a class='btn video-btn'>Stop</a>
+        </div>
+    </section>
+
+    <section id='theme'>
+        <a class='btn theme-btn'>Waves</a>
+        <a class='btn theme-btn'>Rain</a>
+        <a class='btn theme-btn'>Birds</a>
+    </section>
+
+    <script src='./static/js/app.js'></script>
+</body>
+</html>
