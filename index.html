@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
+
 <head>
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,12 +9,11 @@
 
     <title>Meditation Time</title>
 </head>
+
 <body>
-    <video id='bg-video'>
-        <source src='/static/video/waves.mp4' type='video/mp4'>
+    <video id='bg-video' class="video-source" src='/static/video/waves.mp4' loop="true">
     </video>
-    <audio id='audio'>
-        <source src='./static/audio/waves.mp3' type="audio/mp3">
+    <audio id='audio' class="audio-source" src='/static/audio/waves.mp3' loop="true">
     </audio>
     <section id='time-selection'>
         <a class='btn time-btn'>5:00</a>
@@ -36,9 +36,10 @@
     <section id='theme'>
         <a class='btn theme-btn'>Waves</a>
         <a class='btn theme-btn'>Rain</a>
-        <a class='btn theme-btn'>Birds</a>
+        <a class='btn theme-btn'>Forest</a>
     </section>
 
     <script src='./static/js/app.js'></script>
 </body>
+
 </html>
