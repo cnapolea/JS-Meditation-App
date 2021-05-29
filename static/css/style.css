@@ -81,7 +81,7 @@ body {
     background-color: rgba(255, 255, 255, 0.64);
 }
 
-.timer {
+.timer-container {
     height: 40%;
     width: 40%;
     border: white 20px solid;
@@ -98,9 +98,10 @@ body {
     margin: 0 25px;
 }
 
-#timer-display .timer {
+#timer-display .timer-container {
  display: flex;
  justify-content: center;
+ align-items: center;
 }
 
 .media-btn {
@@ -112,6 +113,10 @@ body {
     display: block;
 }
 
-#timer-display .pause {
+#timer-display .timer {
     display: none;
+    font-size: 4em;
+    color: #fff;
+    font-weight: 500;
 }
+
