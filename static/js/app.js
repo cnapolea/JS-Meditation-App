@@ -42,7 +42,10 @@
         targetSeconds--;
         
         // We are checking if the timer is up to stop the countdown
-        if(Number(targetMinutes) === 0 && Number(targetSeconds) === 0 ) pause();
+        if(Number(targetMinutes) === 0 && Number(targetSeconds) === 0 ) {
+            reset();
+        }
+
         
         if(targetMinutes < 10) {
             
