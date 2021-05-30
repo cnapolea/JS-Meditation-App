@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo');
+@import url(https://fonts.googleapis.com/css2?family=Heebo);html{height:100%}body{height:100%;margin:0;padding:0;display:flex;justify-content:space-between;font-size:14px;font-family:Heebo,sans-serif}#bg-video{position:absolute;z-index:-1;width:100%;height:100%}#theme,#time-selection,#timer-display{height:100%}#time-selection{width:30%}#timer-display{width:60%}#theme{width:30%}#theme,#time-selection,#timer-display{display:flex;flex-direction:column;align-items:center;justify-content:center}#theme .btn,#time-selection .btn{align-items:center;display:flex;justify-content:center;margin:35px 0;width:55%}#time-selection a:last-child{background-color:#fff;font-weight:600;cursor:pointer;padding:5px;transition:2s ease-in}.btn{background-color:#fff;border:1px solid transparent;border-radius:3%;font-size:1.5em;height:5%;transition:.5s ease-in;font-weight:600}.btn:hover{cursor:pointer;background-color:rgba(255,255,255,.64)}.timer-container{height:40%;width:40%;border:#fff 20px solid;border-radius:50%}#timer-display>.btn-container{margin-top:50px}#timer-display .btn{padding:5px 35px;margin:0 25px}#timer-display .timer-container{display:flex;justify-content:center;align-items:center}.media-btn{cursor:pointer;width:60%}#timer-display .play{display:block}#timer-display .timer{display:none;font-size:4em;color:#fff;font-weight:500}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Heebo');
 
 html {
     height: 100%;
@@ -119,4 +121,4 @@ body {
     color: #fff;
     font-weight: 500;
 }
-
+ */
